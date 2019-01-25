@@ -24,7 +24,7 @@ endef
 ifndef $($(_flavor_)_build)_PROJ_LIBS
 $($(_flavor_)_build)_PROJ_LIBS+=\
 	-lpthread \
-	-lrt
+	#-lrt
 
 endif
 
